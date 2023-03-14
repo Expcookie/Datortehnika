@@ -1,0 +1,82 @@
+.App {
+
+}
+
+.App-header {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  line-height: 1;
+  position: relative;
+  left: 20px;
+  margin-top: -20px;
+}
+
+.Request-button {
+  font-size: calc(10px + 2vmin);
+  background-color: #ff9800;
+  padding: 5px 15px;
+  border-radius: 10px;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  }
+  
+.Request-button:hover{
+  background-color: #fb8c00;
+  transition: ease background-color 300ms;
+  }
+
+.Select-button{
+  font-size: calc(8px + 2vmin);
+  background-color: #fafafa;
+  padding: 10px 10px;
+  border-radius: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 10px;
+  margin-left: 10px;
+  }
+
+.Select-button:hover{
+  background-color: #e0e0e0;
+  transition: ease background-color 200ms
+}
+
+.text{
+  font-size: calc(5px + 2vmin);
+  position: relative;
+  left: 20px;
+}
+
+input{
+  width: 50%;
+  height: 40px;
+  position: relative;
+  left: 20px;
+  border-radius: 5px;
+  resize: none;
+  font-size: calc(5px + 2vmin);
+  margin-top: -20px;
+}
+
+textarea{
+  width: 50%;
+  height: 150px;
+  position: relative;
+  left: 20px;
+  border-radius: 5px;
+  resize: none;
+  font-size: calc(5px + 2vmin);
+  margin-top: -20px;
+}
+img{
+	width: 250px;
+	height: 250px;
+}
